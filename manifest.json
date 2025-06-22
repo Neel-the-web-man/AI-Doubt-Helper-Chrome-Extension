@@ -24,17 +24,18 @@
   "web_accessible_resources" : [
     {
       "resources": [
-        "assets/images/chatbotLogo.png",
-        "assets/images/Ailogo.png"
+        "assets/images/chatbot.png",
+        "assets/images/idea.png",
+        "assets/images/send-message.png"
       ],
       "matches" : ["<all_urls>"]
     }
   ],
   "action": {
     "default_icon": {
-      "16": "Ailogo.png",
-      "24": "Ailogo.png",
-      "32": "Ailogo.png"
+      "16": "assets/images/idea.png",
+      "24": "assets/images/idea.png",
+      "32": "assets/images/idea.png"
     },
     "default_popup": "popup.html",
     "default_title": "Ai Chatbot helper."
